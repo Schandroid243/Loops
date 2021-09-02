@@ -39,3 +39,15 @@ do {
     console.log(counter3);
     counter3--;
 } while(counter3 > 0);
+
+/* forEach Loop */
+
+todos.forEach(function(todo, i) { //The second parameter is the index
+    console.log(todo, i);
+});
+
+function logTodos(todo, i) {
+    console.log(todo, i);
+}
+
+todos.forEach(logTodos);
