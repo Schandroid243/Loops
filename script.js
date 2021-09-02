@@ -31,3 +31,11 @@ while (counterTwo > 0) {
     console.log(counterOne);
     counterTwo--;
 }
+
+/* Do While Loop*/
+
+var counter3 = 10;
+do {
+    console.log(counter3);
+    counter3--;
+} while(counter3 > 0);
